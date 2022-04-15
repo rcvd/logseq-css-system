@@ -1,0 +1,72 @@
+.white-theme,
+html[data-theme=light] {
+	--cl-white: 		#fff;
+	--cl-alabaster: 	#f9fafb;
+	--cl-blackhaze: 	#f5f6f8;
+	--cl-antiflash: 	#f2f3f5;
+	--cl-athens: 		#eef0f4;
+	--cl-gallery: 		#eeeff0;
+	--cl-fadedwhite: 	#ececec;
+	--cl-lilac: 		#e9e9e9;
+	--cl-gainsboro: 	#dcdddc;
+	--cl-zircon: 		#dee0e6;
+	--cl-iron: 			#cbcbcb;
+	--cl-silver: 		#c1c3c6;
+	--cl-magnesium: 	#b5b5b5;
+	--cl-bombay: 		#b0b2b8;
+	--cl-aluminium: 	#a8acb3;
+	--cl-santas: 		#9a9ea4;
+	--cl-regent: 		#8a9099;
+	--cl-mist: 			#8f9197;
+	--cl-boulder: 		#7a7b7c;
+	--cl-mobster: 		#5d5f62;
+	--cl-vulcan: 		#363a3e;
+	--cl-shark: 		#25272b;
+	--cl-spiro: 		#1eaff8;
+	--cl-radical: 		#ff316c;
+	--cl-navy: 			#0169cd;
+	--cl-cornblue: 		#4f9afc;
+	--cl-fadedblack: 	#202020;
+	--cl-denim: 		#1c61c2;
+	--cl-porcelain: 	#f0f1f3;
+	--cl-oslo: 			#8a8e98;
+	--cl-black-pearl: 	#1b232c;
+	--cl-hawkes: 		#cbe2ff;
+	--cl-tropical: 		#c5d7ff;
+	--cl-ebony: 		#303236;
+	--cl-edgewater: 	#c3e1d3;
+	--cl-salem: 		#1d7d57;
+	--cl-gunmetal: 		#2c3239;
+	--cl-whitesmoke: 	#f6f6f6;
+}
+
+.dark-theme,
+html[data-theme=dark] {
+	--cl-black: 		#000;
+	--cl-jungle: 		#1c1c1c;
+	--cl-hunter: 		#161716;
+	--cl-fadedblack: 	#222322;
+	--cl-nero: 			#262626;
+	--cl-bunker: 		#2d2d2d;
+	--cl-cod: 			#2f2f2f;
+	--cl-dark: 			#575757;
+	--cl-chicago: 		#5e5e5e;
+	--cl-storm: 		#636363;
+	--cl-dove: 			#757575;
+	--cl-darkgray: 		#a8a8a8;
+	--cl-magnesium: 	#b5b5b5;
+	--cl-vulcan: 		#363a3e;
+	--cl-lightgray: 	#d1d2d2;
+	--cl-white:			#ffffff;
+	--cl-steel: 		#676767;
+	--cl-capecod: 		#515151;
+	--cl-ship: 			#505050;
+	--cl-maya: 			#67acff;
+	--cl-fun: 			#2260af	;
+	--cl-france: 		#408fff;
+	--cl-united: 		#4e94f7;
+	--cl-astronaut: 	#244174;
+	--cl-gray: 			#919191;
+	--cl-amazon: 		#307055;
+	--cl-aqua: 			#e9f5f1;
+}

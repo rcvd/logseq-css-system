@@ -1,0 +1,52 @@
+/* Headlines */
+*:is(.editor-inner .uniline-block.h1, .editor-inner .h1, .ls-block h1) {
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+*:is(.editor-inner .uniline-block.h2, .editor-inner .h2, .ls-block h2) {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+*:is(.editor-inner .uniline-block.h3, .editor-inner .h3, .ls-block h3) {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+/* Bullets */
+.bullet-container .bullet {
+	height: 4px;
+	width: 4px;
+}
+
+.mr-1.flex.flex-row.items-center.sm\:mr-2 {
+	height: 26px!important;
+}
+
+/* Reduce border radius for ui panels */
+.ui__modal-panel {
+	border-radius: 5px;
+}
+
+/* Set checked color to white */
+.white-theme .form-checkbox:checked,
+html[data-theme="light"] .form-checkbox:checked {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23ffffff' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M5.707 7.293a1 1 0 0 0-1.414 1.414l2 2a1 1 0 0 0 1.414 0l4-4a1 1 0 0 0-1.414-1.414L7 8.586 5.707 7.293z'/%3e%3c/svg%3e");
+}
+
+/* Menu Items Padding */
+a.menu-link {
+	padding-top: .3rem;
+	padding-bottom: .3rem;
+}
+
+/* Search Menu Items Padding */
+.cp__palette a.menu-link {
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+}
+
+.cp__palette-main a.menu-link span {
+	line-height: unset;
+}

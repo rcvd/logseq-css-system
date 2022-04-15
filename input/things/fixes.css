@@ -1,0 +1,67 @@
+/* Remove tailwind formattings */
+.text-sm {
+  font-size: 1em;
+}
+
+/* ------- */
+/*  Menus  */
+/* ------- */
+
+/* Add padding around menus */
+.dropdown-wrapper,
+#custom-context-menu {
+  padding: 4px;
+}
+
+.dropdown-wrapper .py-2,
+#custom-context-menu .py-2,
+#left-sidebar .py-2 {
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+
+/* Left Sidebar */
+.left-sidebar-inner #repo-name {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+blockquote {
+  margin-top: -28px !important;
+}
+
+blockquote:before {
+  content: ">";
+  margin-left: -16px;
+  top: 20px;
+  position: relative;
+}
+
+*:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card).page-reference[data-ref="card"].tag,
+*:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card)
+  a[data-ref="card"].tag {
+  display: none;
+}
+
+.cm-s-solarized .CodeMirror-linenumber,
+.CodeMirror-gutter-background,
+.cm-s-solarized .CodeMirror-gutters {
+  display: none;
+}
+
+.CodeMirror-sizer {
+  margin-left: 5px !important;
+}
+
+.ui__modal-panel {
+  background: transparent !important;
+  border-radius: 5px;
+}
+
+html {
+  font-size: 14px;
+}
+
+.text-sm {
+  font-size: 1rem;
+}

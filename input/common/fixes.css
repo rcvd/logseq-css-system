@@ -1,0 +1,208 @@
+/* Fixes for command palette and search */
+.cp__palette-main .chosen {
+  background: transparent;
+}
+
+.cp__palette a.menu-link code {
+  line-height: 24px;
+}
+
+.cp__palette-main a.menu-link span {
+  line-height: 30px;
+}
+
+.cp__palette-main .recent-search > div {
+  opacity: 1 !important;
+}
+
+.cp__palette-main .command-results-wrap > div > div > div,
+.cp__palette-main .search-results-wrap > div > div > div {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.ui__modal-panel {
+  background: transparent !important;
+  border-radius: 10px;
+}
+
+/* Hide first, empty item on graph dropdown */
+.left-sidebar-inner .dropdown-wrapper > div > a:first-child {
+  display: none;
+}
+
+.cp__sidebar-left-layout:before {
+  background: transparent;
+}
+
+.cp__sidebar-left-layout .ti {
+  font-size: 16px !important;
+}
+
+/* Remove animation from links */
+a {
+  transition: none;
+}
+
+.absolute-modal #ui__ac {
+  margin-right: 0.25rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.scrollbar-spacing,
+.tippy-wrapper,
+#main-container,
+.cp__palette-main .command-results-wrap,
+.cp__palette-main .search-results-wrap > div:first-child {
+  margin-right: 0.25rem;
+}
+
+.scrollbar-spacing #main-container,
+.tippy-wrapper {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+#custom-context-menu,
+.absolute-modal #ui__ac #ui__ac-inner {
+  padding: 0.25rem;
+}
+
+/* Fix Dropdown Wrapper inner margin */
+.dropdown-wrapper > div {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+/* Fix margins for favorite and recent items */
+.cp__sidebar-left-layout .recent ul .recent-item a,
+.cp__sidebar-left-layout .favorites ul .favorite-item a {
+  margin-left: 8px;
+  margin-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.left-sidebar-inner .nav-content-item > .bd ul a {
+  width: unset;
+}
+
+.cp__sidebar-left-layout .recent ul .recent-item a,
+.cp__sidebar-left-layout .favorites ul .favorite-item a,
+.nav-header .py-2 {
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+}
+
+/* Align Icons on left sidebar */
+.cp__sidebar-left-layout nav[aria-label="Sidebar"] div.relative a,
+.cp__sidebar-left-layout .nav-header > div a {
+  align-items: center;
+}
+
+.left-sidebar-inner a.item > span,
+.cp__sidebar-left-layout nav[aria-label="Sidebar"] div.relative a span {
+  margin-top: 0px;
+}
+
+.new-page a.item .ti,
+.cp__sidebar-left-layout nav[aria-label="Sidebar"] div.relative a .ti,
+.cp__sidebar-left-layout .nav-header > div a .ti {
+  padding-bottom: 3px;
+}
+
+.white-theme .form-checkbox:checked,
+html[data-theme="light"] .form-checkbox:checked {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23555555' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M5.707 7.293a1 1 0 0 0-1.414 1.414l2 2a1 1 0 0 0 1.414 0l4-4a1 1 0 0 0-1.414-1.414L7 8.586 5.707 7.293z'/%3e%3c/svg%3e");
+}
+
+.CodeMirror-sizer {
+  margin-left: 5px !important;
+}
+
+.cm-s-solarized .CodeMirror-linenumber,
+.CodeMirror-gutter-background,
+.cm-s-solarized .CodeMirror-gutters {
+  display: none;
+}
+
+a.tag {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.custom-query .content {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.custom-query .initial {
+  padding: 5px;
+}
+
+.custom-query-title {
+  margin-top: 5px;
+}
+
+.references .content .color-level {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.transition {
+  transition: none;
+}
+
+.tippy-tooltip {
+  -webkit-font-smoothing: unset;
+}
+
+.cp__palette .search-item {
+  align-items: center;
+}
+
+.cp__right-sidebar a {
+  opacity: 1;
+}
+
+.svg-shadow {
+  filter: none;
+  --webkit-filter: none;
+}
+
+*:is(h1, h2, h3, h4, h5, h6) input {
+  font-weight: inherit !important;
+}
+
+.graph-filters .shadow-xl {
+  box-shadow: none;
+  --webkit-box-shadow: none;
+}
+
+a.tag {
+  margin-top: 2px;
+}
+
+.cp__sidebar-main-layout {
+  background: transparent;
+}
+
+.block-control, 
+.block-control:hover {
+  min-height: unset;
+}
+
+@media (min-width: 640px) .sm\:mr-2 {
+  margin-right: 8px;
+}
+
+.block-children-left-border {
+  width: 2px;
+  left:  0px;
+}
+
+.block-children-left-border:hover {
+  width: 4px;
+  left:  -1px;
+}

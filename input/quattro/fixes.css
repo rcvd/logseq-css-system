@@ -1,0 +1,12 @@
+.ui__modal-panel {
+  background: transparent !important;
+  border-radius: 5px;
+}
+
+html {
+  font-size: 14px;
+}
+
+.text-sm {
+  font-size: 1rem;
+}
