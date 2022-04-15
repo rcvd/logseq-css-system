@@ -14,4 +14,4 @@ Thanks a lot for your support!
 
 ## Bugs and feedback
 - If you find a bug, file it under Issues with a short description and an screenshot
-- If you want to discuss an issue contact me on [Twitter](https://twitter.com/rcvd_io) or drop me an email to roam (at) rcvd (dot) io
+- If you want to discuss an issue contact me on [Twitter](https://twitter.com/rcvd_io) or drop me an email to logseq (at) rcvd (dot) io
