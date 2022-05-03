@@ -3821,7 +3821,7 @@ a.tag {
 }
 
 body {
-  line-height: 1.53;
+  line-height: 1.6;
 }
 /* Headlines */
 *:is(.editor-inner .uniline-block.h1, .editor-inner .h1, .ls-block h1) {
