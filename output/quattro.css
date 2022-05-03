@@ -3941,10 +3941,8 @@ a.tag {
   left:  -1px;
 }
 
-@media (min-width: 640px)
-.block-content-wrapper {
-    width: calc(100% - 33px);
-    overflow-x: unset!important;
+body {
+  line-height: 1.53;
 }
 .ui__modal-panel {
   background: transparent !important;
