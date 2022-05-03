@@ -3823,7 +3823,7 @@ a.tag {
 @media (min-width: 640px)
 .block-content-wrapper {
     width: calc(100% - 33px);
-    overflow-x: unset;
+    overflow-x: unset!important;
 }
 /* Headlines */
 *:is(.editor-inner .uniline-block.h1, .editor-inner .h1, .ls-block h1) {

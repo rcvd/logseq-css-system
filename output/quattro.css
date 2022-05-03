@@ -3944,7 +3944,7 @@ a.tag {
 @media (min-width: 640px)
 .block-content-wrapper {
     width: calc(100% - 33px);
-    overflow-x: unset;
+    overflow-x: unset!important;
 }
 .ui__modal-panel {
   background: transparent !important;
