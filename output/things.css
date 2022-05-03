@@ -3823,6 +3823,12 @@ a.tag {
   width: 4px;
   left:  -1px;
 }
+
+@media (min-width: 640px)
+.block-content-wrapper {
+    width: calc(100% - 33px);
+    overflow-x: unset;
+}
 /* Remove tailwind formattings */
 .text-sm {
   font-size: 1em;
