@@ -1145,7 +1145,7 @@ a.tag:hover {
 	border-radius: 			10px;
 	color: 					var(--cl-salem);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				1rem;
+	font-size: 				0.85rem;
 	font-weight: 			500;
 	opacity: 				1;
 }
@@ -1167,7 +1167,7 @@ a.tag {
 	border-radius: 			10px;
 	color: 					var(--cl-salem);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				1rem;
+	font-size: 				0.85rem;
 	font-weight: 			500;
 	opacity: 				1;
 }
