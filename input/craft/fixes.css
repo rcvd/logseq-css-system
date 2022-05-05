@@ -50,3 +50,7 @@ a.menu-link {
 .cp__palette-main a.menu-link span {
 	line-height: unset;
 }
+
+body {
+	line-height: 1.6;
+}
