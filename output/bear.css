@@ -3869,6 +3869,11 @@ a.tag {
 body {
   line-height: 1.6;
 }
+
+/* Fixes for bullet threading plugin */
+.block-children-left-border {
+  z-index: 0;
+}
 .ui__modal-panel {
   background: transparent !important;
   border-radius: 10px;

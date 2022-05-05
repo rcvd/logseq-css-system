@@ -3827,6 +3827,11 @@ a.tag {
 body {
   line-height: 1.6;
 }
+
+/* Fixes for bullet threading plugin */
+.block-children-left-border {
+  z-index: 0;
+}
 /* Remove tailwind formattings */
 .text-sm {
   font-size: 1em;
