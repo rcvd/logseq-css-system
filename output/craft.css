@@ -3820,7 +3820,7 @@ a.tag {
   left:  -1px;
 }
 
-body {
+body, textarea {
   line-height: 1.6;
 }
 
@@ -3879,8 +3879,4 @@ a.menu-link {
 
 .cp__palette-main a.menu-link span {
 	line-height: unset;
-}
-
-body, textarea {
-	line-height: 1.6;
 }

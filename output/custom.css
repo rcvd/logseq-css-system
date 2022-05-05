@@ -3798,7 +3798,7 @@ a.tag {
   left:  -1px;
 }
 
-body {
+body, textarea {
   line-height: 1.6;
 }
 
