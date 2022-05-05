@@ -2289,10 +2289,10 @@ a svg {
 }
 
 #pdf-layout-container[data-theme=light] {
-	background-color: 		var(--cl-alabaster);
+	background-color: 		var(--cl-white);
 }
 .dark-theme #pdf-layout-container[data-theme=light],  html[data-theme=dark] #pdf-layout-container[data-theme=light] {
-	background-color: 		var(--cl-vulcan);
+	background-color: 		var(--cl-white);
 }
 
 #pdf-layout-container[data-theme=warm] {
@@ -2303,10 +2303,10 @@ a svg {
 }
 
 #pdf-layout-container[data-theme=dark] {
-	background-color: 		var(--cl-codgrey);
+	background-color: 		var(--cl-black);
 }
 .dark-theme #pdf-layout-container[data-theme=dark],  html[data-theme=dark] #pdf-layout-container[data-theme=dark] {
-	background-color: 		var(--cl-alabaster);
+	background-color: 		var(--cl-black);
 }
 
 #pdf-layout-container[data-theme=light] .textLayer {

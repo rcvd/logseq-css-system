@@ -2243,7 +2243,7 @@ a svg {
 }
 
 #pdf-layout-container[data-theme=light] {
-	background-color: 		var(--cl-whitesmoke);
+	background-color: 		var(--cl-white);
 }
 .dark-theme #pdf-layout-container[data-theme=light],  html[data-theme=dark] #pdf-layout-container[data-theme=light] {
 	background-color: 		var(--cl-whitesmoke);
@@ -2257,7 +2257,7 @@ a svg {
 }
 
 #pdf-layout-container[data-theme=dark] {
-	background-color: 		var(--cl-codblack);
+	background-color: 		var(--cl-black);
 }
 .dark-theme #pdf-layout-container[data-theme=dark],  html[data-theme=dark] #pdf-layout-container[data-theme=dark] {
 	background-color: 		var(--cl-codblack);
