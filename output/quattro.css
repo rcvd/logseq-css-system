@@ -1669,7 +1669,7 @@ hr {
 p {
 	color: 					var(--cl-nero);
 	font-family: 			'iA Writer Quattro S', sans-serif;
-	font-size: 				;
+	font-size: 				0.9rem;
 }
 .dark-theme p,  html[data-theme=dark] p {
 	color: 					var(--cl-iron);
@@ -2637,7 +2637,7 @@ a svg {
 
 #right-sidebar .page-title {
 	color: 					var(--cl-nero);
-	font-size: 				;
+	font-size: 				1rem;
 }
 .dark-theme #right-sidebar .page-title,  html[data-theme=dark] #right-sidebar .page-title {
 	color: 					var(--cl-iron);

@@ -2520,7 +2520,7 @@ a svg {
 
 #right-sidebar .page-title {
 	color: 					var(--cl-fadedblack);
-	font-size: 				;
+	font-size: 				1rem;
 }
 .dark-theme #right-sidebar .page-title,  html[data-theme=dark] #right-sidebar .page-title {
 	color: 					var(--cl-white);
