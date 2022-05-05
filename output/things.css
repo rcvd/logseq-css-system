@@ -1636,7 +1636,7 @@ a svg {
 	border-radius: 			none;
 	color: 					var(--cl-vulcan);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				;
+	font-size: 				0.9rem;
 }
 .dark-theme #left-sidebar .favorites ul .favorite-item a,  html[data-theme=dark] #left-sidebar .favorites ul .favorite-item a {
 	background-color: 		transparent;
@@ -1682,7 +1682,7 @@ a svg {
 #left-sidebar .favorites > div.header a {
 	color: 					var(--cl-vulcan);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				;
+	font-size: 				0.9rem;
 	font-weight: 			;
 	opacity: 				1!important;
 }
@@ -1802,7 +1802,7 @@ a svg {
 #left-sidebar nav[aria-label='Sidebar'] div.relative a span {
 	color: 					var(--cl-vulcan);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				;
+	font-size: 				0.9rem;
 	font-weight: 			;
 }
 .dark-theme #left-sidebar nav[aria-label='Sidebar'] div.relative a span,  html[data-theme=dark] #left-sidebar nav[aria-label='Sidebar'] div.relative a span {
@@ -1865,7 +1865,7 @@ a svg {
 #left-sidebar .nav-header > div a span {
 	color: 					var(--cl-vulcan);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				;
+	font-size: 				0.9rem;
 	font-weight: 			;
 }
 .dark-theme #left-sidebar .nav-header > div a span,  html[data-theme=dark] #left-sidebar .nav-header > div a span {
@@ -1968,7 +1968,7 @@ a svg {
 	border-radius: 			none;
 	color: 					var(--cl-vulcan);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				;
+	font-size: 				0.9rem;
 }
 .dark-theme #left-sidebar .recent ul .recent-item a,  html[data-theme=dark] #left-sidebar .recent ul .recent-item a {
 	background-color: 		transparent;
@@ -2042,7 +2042,7 @@ a svg {
 #left-sidebar .recent > div.header a {
 	color: 					var(--cl-vulcan);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				;
+	font-size: 				0.9rem;
 	font-weight: 			;
 	opacity: 				1!important;
 }
