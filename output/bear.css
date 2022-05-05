@@ -498,10 +498,10 @@ a:hover>.bullet-container {
 	background-color: 		var(--cl-charcoal);
 }
 
-.bullet-container .bullet {
+.ls-block .bullet {
 	background-color: 		var(--cl-mandy);
 }
-.dark-theme .bullet-container .bullet,  html[data-theme=dark] .bullet-container .bullet {
+.dark-theme .ls-block .bullet,  html[data-theme=dark] .ls-block .bullet {
 	background-color: 		var(--cl-picton);
 }
 

@@ -573,10 +573,10 @@ a:hover>.bullet-container {
 	background-color: 		var(--cl-stack);
 }
 
-.bullet-container .bullet {
+.ls-block .bullet {
 	background-color: 		var(--cl-silver);
 }
-.dark-theme .bullet-container .bullet,  html[data-theme=dark] .bullet-container .bullet {
+.dark-theme .ls-block .bullet,  html[data-theme=dark] .ls-block .bullet {
 	background-color: 		var(--cl-chicago);
 }
 

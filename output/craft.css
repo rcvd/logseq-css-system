@@ -452,10 +452,10 @@ a:hover>.bullet-container {
 	background-color: 		var(--cl-thunder);
 }
 
-.bullet-container .bullet {
+.ls-block .bullet {
 	background-color: 		var(--cl-black);
 }
-.dark-theme .bullet-container .bullet,  html[data-theme=dark] .bullet-container .bullet {
+.dark-theme .ls-block .bullet,  html[data-theme=dark] .ls-block .bullet {
 	background-color: 		var(--cl-wildsand);
 }
 
