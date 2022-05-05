@@ -102,7 +102,7 @@ html[data-theme=dark] {
 .cp__all_pages th a, .cp__all_pages th {
 	border-bottom: 			var(--cl-);
 	color: 					var(--cl-mutedblack);
-	font-size: 				1rem;
+	font-size: 				0.95rem;
 }
 .dark-theme *:is(.cp__all_pages th a, .cp__all_pages th), html[data-theme=dark] *:is(.cp__all_pages th a, .cp__all_pages th) {
 	border-bottom: 			1px solid var(--cl-jungle);
@@ -735,7 +735,7 @@ div[data-refs-self*='"card"'] {
 	background-color: 		var(--cl-white);
 	color: 					var(--cl-fadedblack);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				1rem;
+	font-size: 				0.95rem;
 }
 .dark-theme *:is(*:is(#main-content-container, #right-sidebar)), html[data-theme=dark] *:is(*:is(#main-content-container, #right-sidebar)) {
 	background-color: 		var(--cl-nero);
@@ -862,7 +862,7 @@ div[data-refs-self*='"card"'] {
 *:is(.editor-inner .uniline-block.h5:not(.block-ref *), .editor-inner .h5:not(.block-ref *), .ls-block h5:not(.block-ref *)) {
 	color: 					var(--cl-shark);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				1rem;
+	font-size: 				0.95rem;
 	font-style: 			normal;
 	font-weight: 			500!important;
 }
@@ -873,7 +873,7 @@ div[data-refs-self*='"card"'] {
 *:is(.editor-inner .uniline-block.h6:not(.block-ref *), .editor-inner .h6:not(.block-ref *), .ls-block h6:not(.block-ref *))  {
 	color: 					var(--cl-shark);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				1rem;
+	font-size: 				0.95rem;
 	font-style: 			normal;
 	font-weight: 			500!important;
 }
@@ -1285,7 +1285,7 @@ textarea::selection {
 	border-radius: 			5px!important;
 	color: 					var(--cl-fadedblack);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				1rem;
+	font-size: 				0.85rem;
 }
 .dark-theme #custom-context-menu .menu-link,  html[data-theme=dark] #custom-context-menu .menu-link {
 	background-color: 		transparent;
@@ -1384,7 +1384,7 @@ textarea::selection {
 	border-radius: 			5px!important;
 	color: 					var(--cl-fadedblack);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				1rem;
+	font-size: 				0.85rem;
 }
 .dark-theme *:is(*:is(#left-sidebar, #app-container) .dropdown-wrapper a.menu-link), html[data-theme=dark] *:is(*:is(#left-sidebar, #app-container) .dropdown-wrapper a.menu-link) {
 	background-color: 		transparent;
@@ -1552,7 +1552,7 @@ hr {
 p {
 	color: 					var(--cl-fadedblack);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				1rem;
+	font-size: 				0.9rem;
 }
 .dark-theme p,  html[data-theme=dark] p {
 	color: 					var(--cl-white);
@@ -1561,7 +1561,7 @@ p {
 #root>div {
 	color: 					var(--cl-fadedblack);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				1rem;
+	font-size: 				0.9rem;
 }
 .dark-theme #root>div,  html[data-theme=dark] #root>div {
 	color: 					var(--cl-white);
@@ -1636,7 +1636,7 @@ a svg {
 	border-radius: 			none;
 	color: 					var(--cl-vulcan);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				1rem;
+	font-size: 				0.9rem;
 }
 .dark-theme #left-sidebar .favorites ul .favorite-item a,  html[data-theme=dark] #left-sidebar .favorites ul .favorite-item a {
 	background-color: 		transparent;
@@ -1682,7 +1682,7 @@ a svg {
 #left-sidebar .favorites > div.header a {
 	color: 					var(--cl-vulcan);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				1rem;
+	font-size: 				0.9rem;
 	font-weight: 			;
 	opacity: 				1!important;
 }
@@ -1802,7 +1802,7 @@ a svg {
 #left-sidebar nav[aria-label='Sidebar'] div.relative a span {
 	color: 					var(--cl-vulcan);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				1rem;
+	font-size: 				0.9rem;
 	font-weight: 			;
 }
 .dark-theme #left-sidebar nav[aria-label='Sidebar'] div.relative a span,  html[data-theme=dark] #left-sidebar nav[aria-label='Sidebar'] div.relative a span {
@@ -1865,7 +1865,7 @@ a svg {
 #left-sidebar .nav-header > div a span {
 	color: 					var(--cl-vulcan);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				1rem;
+	font-size: 				0.9rem;
 	font-weight: 			;
 }
 .dark-theme #left-sidebar .nav-header > div a span,  html[data-theme=dark] #left-sidebar .nav-header > div a span {
@@ -1968,7 +1968,7 @@ a svg {
 	border-radius: 			none;
 	color: 					var(--cl-vulcan);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				1rem;
+	font-size: 				0.9rem;
 }
 .dark-theme #left-sidebar .recent ul .recent-item a,  html[data-theme=dark] #left-sidebar .recent ul .recent-item a {
 	background-color: 		transparent;
@@ -2042,7 +2042,7 @@ a svg {
 #left-sidebar .recent > div.header a {
 	color: 					var(--cl-vulcan);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				1rem;
+	font-size: 				0.9rem;
 	font-weight: 			;
 	opacity: 				1!important;
 }
@@ -2439,7 +2439,7 @@ a svg {
 .references .foldable-title h2 {
 	color: 					var(--cl-mist);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				1rem;
+	font-size: 				0.9rem;
 	font-style: 			;
 	font-weight: 			500;
 	text-transform: 		none;
@@ -3098,7 +3098,7 @@ a svg {
 	--webkit-box-shadow: 	none!important;
 	color: 					var(--cl-vulcan);
 	font-family: 			Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;;
-	font-size: 				1rem!important;
+	font-size: 				0.9rem!important;
 }
 .dark-theme .cp__settings-inner .keyboard-shortcut code,  html[data-theme=dark] .cp__settings-inner .keyboard-shortcut code {
 	background-color: 		var(--cl-fadedblack);
@@ -3370,7 +3370,7 @@ a svg {
 	border-bottom: 			transparent;
 	color: 					var(--cl-fadedblack);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				1.2rem;
+	font-size: 				1rem;
 	font-style: 			;
 	font-weight: 			;
 }
