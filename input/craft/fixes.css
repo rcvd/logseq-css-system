@@ -51,6 +51,6 @@ a.menu-link {
 	line-height: unset;
 }
 
-body {
+body, textarea {
 	line-height: 1.6;
 }
