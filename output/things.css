@@ -2268,10 +2268,10 @@ a svg {
 }
 
 #pdf-layout-container[data-theme=light] .textLayer {
-	background-color: 		var(--cl-nero);
+	background-color: 		var(--cl-white);
 }
 .dark-theme #pdf-layout-container[data-theme=light] .textLayer,  html[data-theme=dark] #pdf-layout-container[data-theme=light] .textLayer {
-	background-color: 		var(--cl-jungle);
+	background-color: 		var(--cl-white);
 }
 
 #pdf-layout-container[data-theme=warm] .textLayer {
@@ -2282,10 +2282,10 @@ a svg {
 }
 
 #pdf-layout-container[data-theme=dark] .textLayer {
-	background-color: 		var(--cl-white);
+	background-color: 		var(--cl-black);
 }
 .dark-theme #pdf-layout-container[data-theme=dark] .textLayer,  html[data-theme=dark] #pdf-layout-container[data-theme=dark] .textLayer {
-	background-color: 		var(--cl-blackhaze);
+	background-color: 		var(--cl-black);
 }
 
 .ui__button[intent=logseq]:hover {
