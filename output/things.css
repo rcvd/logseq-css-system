@@ -815,7 +815,7 @@ div[data-refs-self*='"card"'] {
 	border-bottom: 			transparent;
 	color: 					var(--cl-shark);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				1.3em;
+	font-size: 				1.3rem;
 	font-style: 			normal;
 	font-weight: 			500!important;
 }
@@ -828,7 +828,7 @@ div[data-refs-self*='"card"'] {
 	border-bottom: 			transparent;
 	color: 					var(--cl-shark);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				1.2em;
+	font-size: 				1.2rem;
 	font-style: 			normal;
 	font-weight: 			500!important;
 }
@@ -840,7 +840,7 @@ div[data-refs-self*='"card"'] {
 *:is(.editor-inner .uniline-block.h3:not(.block-ref *), .editor-inner .h3:not(.block-ref *), .ls-block h3:not(.block-ref *)) {
 	color: 					var(--cl-shark);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				1.1em;
+	font-size: 				1.1rem;
 	font-style: 			normal;
 	font-weight: 			500!important;
 }
@@ -851,7 +851,7 @@ div[data-refs-self*='"card"'] {
 *:is(.editor-inner .uniline-block.h4:not(.block-ref *), .editor-inner .h4:not(.block-ref *), .ls-block h4:not(.block-ref *)) {
 	color: 					var(--cl-shark);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				1em;
+	font-size: 				1rem;
 	font-style: 			normal;
 	font-weight: 			500!important;
 }
@@ -862,7 +862,7 @@ div[data-refs-self*='"card"'] {
 *:is(.editor-inner .uniline-block.h5:not(.block-ref *), .editor-inner .h5:not(.block-ref *), .ls-block h5:not(.block-ref *)) {
 	color: 					var(--cl-shark);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				1em;
+	font-size: 				1rem;
 	font-style: 			normal;
 	font-weight: 			500!important;
 }
@@ -873,7 +873,7 @@ div[data-refs-self*='"card"'] {
 *:is(.editor-inner .uniline-block.h6:not(.block-ref *), .editor-inner .h6:not(.block-ref *), .ls-block h6:not(.block-ref *))  {
 	color: 					var(--cl-shark);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				1em;
+	font-size: 				1rem;
 	font-style: 			normal;
 	font-weight: 			500!important;
 }
@@ -1552,7 +1552,7 @@ hr {
 p {
 	color: 					var(--cl-fadedblack);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				;
+	font-size: 				0.9rem;
 }
 .dark-theme p,  html[data-theme=dark] p {
 	color: 					var(--cl-white);
@@ -1561,7 +1561,7 @@ p {
 #root>div {
 	color: 					var(--cl-fadedblack);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
-	font-size: 				;
+	font-size: 				0.9rem;
 }
 .dark-theme #root>div,  html[data-theme=dark] #root>div {
 	color: 					var(--cl-white);
