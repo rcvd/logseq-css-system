@@ -2289,10 +2289,10 @@ a svg {
 }
 
 #pdf-layout-container[data-theme=light] {
-	background-color: 		var(--cl-bunker);
+	background-color: 		var(--cl-alabaster);
 }
 .dark-theme #pdf-layout-container[data-theme=light],  html[data-theme=dark] #pdf-layout-container[data-theme=light] {
-	background-color: 		var(--cl-jungle);
+	background-color: 		var(--cl-vulcan);
 }
 
 #pdf-layout-container[data-theme=warm] {

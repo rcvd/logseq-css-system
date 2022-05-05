@@ -2364,10 +2364,10 @@ a svg {
 }
 
 #pdf-layout-container[data-theme=light] {
-	background-color: 		var(--cl-shark);
+	background-color: 		var(--cl-alabaster);
 }
 .dark-theme #pdf-layout-container[data-theme=light],  html[data-theme=dark] #pdf-layout-container[data-theme=light] {
-	background-color: 		var(--cl-vulcan);
+	background-color: 		var(--cl-onyx);
 }
 
 #pdf-layout-container[data-theme=warm] {
