@@ -144,7 +144,7 @@ html[data-theme=light] {
 .cp__all_pages th a, .cp__all_pages th {
 	border-bottom: 			var(--cl-);
 	color: 					var(--cl-mineshaft);
-	font-size: 				;
+	font-size: 				1rem;
 }
 .dark-theme *:is(.cp__all_pages th a, .cp__all_pages th), html[data-theme=dark] *:is(.cp__all_pages th a, .cp__all_pages th) {
 	border-bottom: 			var(--cl-);
@@ -777,7 +777,7 @@ div[data-refs-self*='"card"'] {
 	background-color: 		var(--cl-alabaster);
 	color: 					var(--cl-mineshaft);
 	font-family: 			'avenir next',avenir, 'Nunito Sans';
-	font-size: 				;
+	font-size: 				1rem;
 }
 .dark-theme *:is(*:is(#main-content-container, #right-sidebar)), html[data-theme=dark] *:is(*:is(#main-content-container, #right-sidebar)) {
 	background-color: 		var(--cl-jungle);
@@ -1187,7 +1187,7 @@ a.tag:hover {
 	border-radius: 			15px;
 	color: 					var(--cl-wildsand);
 	font-family: 			'avenir next',avenir, 'Nunito Sans';
-	font-size: 				1em;
+	font-size: 				1rem;
 	font-weight: 			;
 	opacity: 				1;
 }
@@ -1209,7 +1209,7 @@ a.tag {
 	border-radius: 			15px;
 	color: 					var(--cl-wildsand);
 	font-family: 			'avenir next',avenir, 'Nunito Sans';
-	font-size: 				1em;
+	font-size: 				1rem;
 	font-weight: 			;
 	opacity: 				1;
 }
@@ -1327,7 +1327,7 @@ textarea::selection {
 	border-radius: 			5px!important;
 	color: 					var(--cl-mineshaft);
 	font-family: 			'avenir next',avenir, 'Nunito Sans';
-	font-size: 				;
+	font-size: 				1rem;
 }
 .dark-theme #custom-context-menu .menu-link,  html[data-theme=dark] #custom-context-menu .menu-link {
 	background-color: 		transparent;
@@ -1426,7 +1426,7 @@ textarea::selection {
 	border-radius: 			5px!important;
 	color: 					var(--cl-mineshaft);
 	font-family: 			'avenir next',avenir, 'Nunito Sans';
-	font-size: 				;
+	font-size: 				1rem;
 }
 .dark-theme *:is(*:is(#left-sidebar, #app-container) .dropdown-wrapper a.menu-link), html[data-theme=dark] *:is(*:is(#left-sidebar, #app-container) .dropdown-wrapper a.menu-link) {
 	background-color: 		transparent;
@@ -1594,7 +1594,7 @@ hr {
 p {
 	color: 					var(--cl-mineshaft);
 	font-family: 			'avenir next',avenir, 'Nunito Sans';
-	font-size: 				1em;
+	font-size: 				1rem;
 }
 .dark-theme p,  html[data-theme=dark] p {
 	color: 					var(--cl-gainsboro);
@@ -1603,7 +1603,7 @@ p {
 #root>div {
 	color: 					var(--cl-mineshaft);
 	font-family: 			'avenir next',avenir, 'Nunito Sans';
-	font-size: 				1em;
+	font-size: 				1rem;
 }
 .dark-theme #root>div,  html[data-theme=dark] #root>div {
 	color: 					var(--cl-gainsboro);
@@ -1678,7 +1678,7 @@ a svg {
 	border-radius: 			5px;
 	color: 					var(--cl-silver);
 	font-family: 			'avenir next',avenir, 'Nunito Sans';
-	font-size: 				0.9rem;
+	font-size: 				1rem;
 }
 .dark-theme #left-sidebar .favorites ul .favorite-item a,  html[data-theme=dark] #left-sidebar .favorites ul .favorite-item a {
 	background-color: 		transparent;
@@ -1724,7 +1724,7 @@ a svg {
 #left-sidebar .favorites > div.header a {
 	color: 					var(--cl-silver);
 	font-family: 			'avenir next',avenir, 'Nunito Sans';
-	font-size: 				0.9rem;
+	font-size: 				1rem;
 	font-weight: 			400;
 	opacity: 				1!important;
 }
@@ -1844,7 +1844,7 @@ a svg {
 #left-sidebar nav[aria-label='Sidebar'] div.relative a span {
 	color: 					var(--cl-silver);
 	font-family: 			'avenir next',avenir, 'Nunito Sans';
-	font-size: 				0.9rem;
+	font-size: 				1rem;
 	font-weight: 			400;
 }
 .dark-theme #left-sidebar nav[aria-label='Sidebar'] div.relative a span,  html[data-theme=dark] #left-sidebar nav[aria-label='Sidebar'] div.relative a span {
@@ -1907,7 +1907,7 @@ a svg {
 #left-sidebar .nav-header > div a span {
 	color: 					var(--cl-silver);
 	font-family: 			'avenir next',avenir, 'Nunito Sans';
-	font-size: 				0.9rem;
+	font-size: 				1rem;
 	font-weight: 			400;
 }
 .dark-theme #left-sidebar .nav-header > div a span,  html[data-theme=dark] #left-sidebar .nav-header > div a span {
@@ -2010,7 +2010,7 @@ a svg {
 	border-radius: 			5px;
 	color: 					var(--cl-silver);
 	font-family: 			'avenir next',avenir, 'Nunito Sans';
-	font-size: 				0.9rem;
+	font-size: 				1rem;
 }
 .dark-theme #left-sidebar .recent ul .recent-item a,  html[data-theme=dark] #left-sidebar .recent ul .recent-item a {
 	background-color: 		transparent;
@@ -2084,7 +2084,7 @@ a svg {
 #left-sidebar .recent > div.header a {
 	color: 					var(--cl-silver);
 	font-family: 			'avenir next',avenir, 'Nunito Sans';
-	font-size: 				0.9rem;
+	font-size: 				1rem;
 	font-weight: 			400;
 	opacity: 				1!important;
 }
@@ -2481,7 +2481,7 @@ a svg {
 .references .foldable-title h2 {
 	color: 					var(--cl-magnesium);
 	font-family: 			'avenir next',avenir, 'Nunito Sans';
-	font-size: 				0.9em;
+	font-size: 				1rem;
 	font-style: 			normal;
 	font-weight: 			500;
 	text-transform: 		uppercase;
@@ -2562,7 +2562,7 @@ a svg {
 
 #right-sidebar .page-title {
 	color: 					var(--cl-valencia);
-	font-size: 				1em;
+	font-size: 				1rem;
 }
 .dark-theme #right-sidebar .page-title,  html[data-theme=dark] #right-sidebar .page-title {
 	color: 					var(--cl-botticelli);
@@ -3140,7 +3140,7 @@ a svg {
 	--webkit-box-shadow: 	none!important;
 	color: 					var(--cl-mineshaft);
 	font-family: 			SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono','Courier New',monospace;
-	font-size: 				0.9em!important;
+	font-size: 				1rem!important;
 }
 .dark-theme .cp__settings-inner .keyboard-shortcut code,  html[data-theme=dark] .cp__settings-inner .keyboard-shortcut code {
 	background-color: 		var(--cl-mutedblack);

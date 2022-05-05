@@ -1058,7 +1058,7 @@ div[data-refs-self*='"card"'] {
 	border-right: 			transparent;
 	border-bottom: 			transparent;
 	border-left: 			transparent;
-	font-size: 				normal;
+	font-size: 				1rem;
 	font-weight: 			600;
 }
 .dark-theme .custom-query th,  html[data-theme=dark] .custom-query th {
@@ -1141,7 +1141,7 @@ a.tag:hover {
 	border-radius: 			10px;
 	color: 					var(--cl-midgray);
 	font-family: 			-apple-system, BlinkMacSystemFont, sans-serif;
-	font-size: 				normal;
+	font-size: 				1rem;
 	font-weight: 			400;
 	opacity: 				1;
 }
@@ -1163,7 +1163,7 @@ a.tag {
 	border-radius: 			10px;
 	color: 					var(--cl-midgray);
 	font-family: 			-apple-system, BlinkMacSystemFont, sans-serif;
-	font-size: 				normal;
+	font-size: 				1rem;
 	font-weight: 			400;
 	opacity: 				1;
 }
