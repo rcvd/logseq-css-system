@@ -2423,6 +2423,12 @@ a svg {
 	color: 					var(--cl-);
 }
 
+.cp__right-sidebar .add-button-link {
+	opacity: 				;
+}
+.dark-theme .cp__right-sidebar .add-button-link,  html[data-theme=dark] .cp__right-sidebar .add-button-link {
+}
+
 #right-sidebar .sidebar-item .close:hover {
 	background-color: 		var(--cl-);
 	opacity: 				!important;

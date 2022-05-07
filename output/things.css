@@ -2449,6 +2449,12 @@ a svg {
 	color: 					var(--cl-darkgray);
 }
 
+.cp__right-sidebar .add-button-link {
+	opacity: 				0;
+}
+.dark-theme .cp__right-sidebar .add-button-link,  html[data-theme=dark] .cp__right-sidebar .add-button-link {
+}
+
 #right-sidebar .sidebar-item .close:hover {
 	background-color: 		var(--cl-);
 	opacity: 				1!important;
