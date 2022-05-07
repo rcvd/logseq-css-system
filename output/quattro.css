@@ -2204,10 +2204,10 @@ a svg {
 }
 
 #mobile-editor-toolbar button {
-	background-color: 		var(--cl-nero);
+	background-color: 		transparent;
 }
 .dark-theme #mobile-editor-toolbar button,  html[data-theme=dark] #mobile-editor-toolbar button {
-	background-color: 		var(--cl-alabaster);
+	background-color: 		transparent;
 }
 
 .ui__notifications button:hover svg {
