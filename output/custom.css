@@ -676,7 +676,7 @@ div[data-refs-self*='"card"'] {
 	background-color: 		var(--cl-);
 }
 
-.extensions__code>.CodeMirror {
+.extensions__code .CodeMirror {
 	background-color: 		var(--cl-);
 	border-top: 			var(--cl-);
 	border-right: 			var(--cl-);
@@ -686,7 +686,7 @@ div[data-refs-self*='"card"'] {
 	color: 					var(--cl-);
 	font-family: 			;
 }
-.dark-theme .extensions__code>.CodeMirror,  html[data-theme=dark] .extensions__code>.CodeMirror {
+.dark-theme .extensions__code .CodeMirror,  html[data-theme=dark] .extensions__code .CodeMirror {
 	background-color: 		var(--cl-);
 	border-top: 			var(--cl-);
 	border-right: 			var(--cl-);

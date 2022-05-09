@@ -698,7 +698,7 @@ div[data-refs-self*='"card"'] {
 	background-color: 		var(--cl-silverchalice);
 }
 
-.extensions__code>.CodeMirror {
+.extensions__code .CodeMirror {
 	background-color: 		var(--cl-whitesmoke);
 	border-top: 			transparent;
 	border-right: 			transparent;
@@ -708,7 +708,7 @@ div[data-refs-self*='"card"'] {
 	color: 					var(--cl-black);
 	font-family: 			Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
 }
-.dark-theme .extensions__code>.CodeMirror,  html[data-theme=dark] .extensions__code>.CodeMirror {
+.dark-theme .extensions__code .CodeMirror,  html[data-theme=dark] .extensions__code .CodeMirror {
 	background-color: 		var(--cl-bokara);
 	border-top: 			transparent;
 	border-right: 			transparent;

@@ -702,7 +702,7 @@ div[data-refs-self*='"card"'] {
 	background-color: 		var(--cl-gray);
 }
 
-.extensions__code>.CodeMirror {
+.extensions__code .CodeMirror {
 	background-color: 		var(--cl-alabaster);
 	border-top: 			1px solid var(--cl-gallery);
 	border-right: 			1px solid var(--cl-gallery);
@@ -712,7 +712,7 @@ div[data-refs-self*='"card"'] {
 	color: 					var(--cl-vulcan);
 	font-family: 			Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;;
 }
-.dark-theme .extensions__code>.CodeMirror,  html[data-theme=dark] .extensions__code>.CodeMirror {
+.dark-theme .extensions__code .CodeMirror,  html[data-theme=dark] .extensions__code .CodeMirror {
 	background-color: 		var(--cl-fadedblack);
 	border-top: 			1px solid var(--cl-jungle);
 	border-right: 			1px solid var(--cl-jungle);

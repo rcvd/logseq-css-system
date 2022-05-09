@@ -819,7 +819,7 @@ div[data-refs-self*='"card"'] {
 	background-color: 		var(--cl-stack);
 }
 
-.extensions__code>.CodeMirror {
+.extensions__code .CodeMirror {
 	background-color: 		var(--cl-white);
 	border-top: 			1px solid var(--cl-silver);
 	border-right: 			1px solid var(--cl-silver);
@@ -829,7 +829,7 @@ div[data-refs-self*='"card"'] {
 	color: 					var(--cl-iron);
 	font-family: 			'iA Writer Mono S', monospace;
 }
-.dark-theme .extensions__code>.CodeMirror,  html[data-theme=dark] .extensions__code>.CodeMirror {
+.dark-theme .extensions__code .CodeMirror,  html[data-theme=dark] .extensions__code .CodeMirror {
 	background-color: 		var(--cl-onyx);
 	border-top: 			1px solid var(--cl-nero);
 	border-right: 			1px solid var(--cl-nero);
