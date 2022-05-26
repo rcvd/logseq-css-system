@@ -219,3 +219,7 @@ body, textarea {
 .ls-block:not(:focus-within) > .items-baseline {
   align-items: self-end!important;
 }
+
+.ls-block > .items-baseline {
+  align-items: self-end!important;
+}

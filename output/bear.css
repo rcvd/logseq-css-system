@@ -3884,6 +3884,10 @@ body, textarea {
 .ls-block:not(:focus-within) > .items-baseline {
   align-items: self-end!important;
 }
+
+.ls-block > .items-baseline {
+  align-items: self-end!important;
+}
 .ui__modal-panel {
   background: transparent !important;
   border-radius: 10px;

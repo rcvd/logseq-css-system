@@ -3842,6 +3842,10 @@ body, textarea {
 .ls-block:not(:focus-within) > .items-baseline {
   align-items: self-end!important;
 }
+
+.ls-block > .items-baseline {
+  align-items: self-end!important;
+}
 /* Remove tailwind formattings */
 .text-sm {
   font-size: 1em;
