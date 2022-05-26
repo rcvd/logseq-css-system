@@ -3853,11 +3853,6 @@ a.tag {
   background: transparent;
 }
 
-.block-control, 
-.block-control:hover {
-  min-height: unset;
-}
-
 @media (min-width: 640px) .sm\:mr-2 {
   margin-right: 8px;
 }
@@ -3879,14 +3874,6 @@ body, textarea {
 /* Fixes for bullet threading plugin */
 .block-children-left-border {
   z-index: 0;
-}
-
-.ls-block:not(:focus-within) > .items-baseline {
-  align-items: self-end!important;
-}
-
-.ls-block > .items-baseline {
-  align-items: self-end!important;
 }
 .ui__modal-panel {
   background: transparent !important;
