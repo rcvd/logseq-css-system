@@ -3843,6 +3843,7 @@ body, textarea {
   align-items: self-end!important;
 }
 /* Headlines */
+/*
 *:is(.editor-inner .uniline-block.h1, .editor-inner .h1, .ls-block h1) {
 	margin-top: 40px;
 	margin-bottom: 10px;
@@ -3857,6 +3858,7 @@ body, textarea {
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
+*/
 
 /* Bullets */
 .bullet-container .bullet {
