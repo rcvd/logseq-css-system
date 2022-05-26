@@ -217,5 +217,5 @@ body, textarea {
 }
 
 .ls-block:not(:focus-within) > .items-baseline {
-  align-items: self-end;
+  align-items: self-end!important;
 }

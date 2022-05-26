@@ -3836,7 +3836,7 @@ body, textarea {
 }
 
 .ls-block:not(:focus-within) > .items-baseline {
-  align-items: self-end;
+  align-items: self-end!important;
 }
 /* Headlines */
 *:is(.editor-inner .uniline-block.h1, .editor-inner .h1, .ls-block h1) {
