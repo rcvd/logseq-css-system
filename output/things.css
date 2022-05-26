@@ -3838,6 +3838,10 @@ body, textarea {
 .block-children-left-border {
   z-index: 0;
 }
+
+.ls-block:not(:focus-within) > .items-baseline {
+  align-items: self-end;
+}
 /* Remove tailwind formattings */
 .text-sm {
   font-size: 1em;
