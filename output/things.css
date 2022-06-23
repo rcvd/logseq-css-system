@@ -1809,7 +1809,7 @@ a svg {
 	color: 					var(--cl-lightgray);
 }
 
-#left-menu {
+#left-menu, #search-button {
 	background-color: 		transparent;
 	border-top: 			transparent;
 	border-right: 			transparent;
@@ -1818,7 +1818,7 @@ a svg {
 	border-radius: 			none;
 	color: 					var(--cl-aluminium);
 }
-.dark-theme #left-menu,  html[data-theme=dark] #left-menu {
+.dark-theme *:is(#left-menu, #search-button), html[data-theme=dark] *:is(#left-menu, #search-button) {
 	background-color: 		transparent;
 	border-top: 			transparent;
 	border-right: 			transparent;
@@ -2095,24 +2095,6 @@ a svg {
 }
 .dark-theme .left-sidebar-inner .wrap::-webkit-scrollbar-thumb,  html[data-theme=dark] .left-sidebar-inner .wrap::-webkit-scrollbar-thumb {
 	background-color: 		var(--cl-gray);
-}
-
-#search-button {
-	background-color: 		transparent;
-	border-top: 			transparent;
-	border-right: 			transparent;
-	border-bottom: 			transparent;
-	border-left: 			transparent;
-	border-radius: 			none;
-	color: 					var(--cl-aluminium);
-}
-.dark-theme #search-button,  html[data-theme=dark] #search-button {
-	background-color: 		transparent;
-	border-top: 			transparent;
-	border-right: 			transparent;
-	border-bottom: 			transparent;
-	border-left: 			transparent;
-	color: 					var(--cl-steel);
 }
 
 #mobile-editor-toolbar {
@@ -3446,6 +3428,24 @@ a svg {
 .dark-theme .tippy-wrapper,  html[data-theme=dark] .tippy-wrapper {
 	background-color: 		transparent;
 	color: 					var(--cl-white)!important;
+}
+
+#head  button {
+	background-color: 		transparent;
+	border-top: 			transparent;
+	border-right: 			transparent;
+	border-bottom: 			transparent;
+	border-left: 			transparent;
+	border-radius: 			none;
+	color: 					var(--cl-aluminium);
+}
+.dark-theme #head  button,  html[data-theme=dark] #head  button {
+	background-color: 		transparent;
+	border-top: 			transparent;
+	border-right: 			transparent;
+	border-bottom: 			transparent;
+	border-left: 			transparent;
+	color: 					var(--cl-steel);
 }
 
 #head a.button:hover .ti {
