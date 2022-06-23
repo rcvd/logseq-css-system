@@ -1643,7 +1643,7 @@ a svg {
 	color: 					var(--cl-wildsand);
 }
 
-#left-sidebar .favorites > div.header:hover {
+#left-sidebar .favorites div.header:hover {
 	background-color: 		transparent;
 	border-top: 			transparent;
 	border-right: 			transparent;
@@ -1651,7 +1651,7 @@ a svg {
 	border-left: 			transparent;
 	border-radius: 			none;
 }
-.dark-theme #left-sidebar .favorites > div.header:hover,  html[data-theme=dark] #left-sidebar .favorites > div.header:hover {
+.dark-theme #left-sidebar .favorites div.header:hover,  html[data-theme=dark] #left-sidebar .favorites div.header:hover {
 	background-color: 		transparent;
 	border-top: 			transparent;
 	border-right: 			transparent;
@@ -1659,7 +1659,7 @@ a svg {
 	border-left: 			transparent;
 }
 
-#left-sidebar .favorites > div.header {
+#left-sidebar .favorites div.header {
 	background-color: 		transparent;
 	border-top: 			transparent;
 	border-right: 			transparent;
@@ -1667,7 +1667,7 @@ a svg {
 	border-left: 			transparent;
 	border-radius: 			none;
 }
-.dark-theme #left-sidebar .favorites > div.header,  html[data-theme=dark] #left-sidebar .favorites > div.header {
+.dark-theme #left-sidebar .favorites div.header,  html[data-theme=dark] #left-sidebar .favorites div.header {
 	background-color: 		transparent;
 	border-top: 			transparent;
 	border-right: 			transparent;
@@ -1675,42 +1675,42 @@ a svg {
 	border-left: 			transparent;
 }
 
-#left-sidebar .favorites > div.header a {
+#left-sidebar .favorites div.header a {
 	color: 					var(--cl-black);
 	font-family: 			-apple-system, BlinkMacSystemFont, sans-serif;
 	font-size: 				0.9rem;
 	font-weight: 			400;
 	opacity: 				1!important;
 }
-.dark-theme #left-sidebar .favorites > div.header a,  html[data-theme=dark] #left-sidebar .favorites > div.header a {
+.dark-theme #left-sidebar .favorites div.header a,  html[data-theme=dark] #left-sidebar .favorites div.header a {
 	color: 					var(--cl-wildsand);
 }
 
-#left-sidebar .favorites > div.header:hover svg {
+#left-sidebar .favorites div.header:hover svg {
 	fill: 		var(--cl-midgray);
 }
-.dark-theme #left-sidebar .favorites > div.header:hover svg,  html[data-theme=dark] #left-sidebar .favorites > div.header:hover svg {
+.dark-theme #left-sidebar .favorites div.header:hover svg,  html[data-theme=dark] #left-sidebar .favorites div.header:hover svg {
 	fill: 		var(--cl-shadylady);
 }
 
-#left-sidebar .favorites > div.header:hover .ti {
+#left-sidebar .favorites div.header:hover .ti {
 	color: 					var(--cl-midgray);
 }
-.dark-theme #left-sidebar .favorites > div.header:hover .ti,  html[data-theme=dark] #left-sidebar .favorites > div.header:hover .ti {
+.dark-theme #left-sidebar .favorites div.header:hover .ti,  html[data-theme=dark] #left-sidebar .favorites div.header:hover .ti {
 	color: 					var(--cl-silverchalice);
 }
 
-#left-sidebar .favorites > div.header .ti {
+#left-sidebar .favorites div.header .ti {
 	color: 					var(--cl-midgray);
 }
-.dark-theme #left-sidebar .favorites > div.header .ti,  html[data-theme=dark] #left-sidebar .favorites > div.header .ti {
+.dark-theme #left-sidebar .favorites div.header .ti,  html[data-theme=dark] #left-sidebar .favorites div.header .ti {
 	color: 					var(--cl-silverchalice);
 }
 
-#left-sidebar .favorites > div.header:hover a {
+#left-sidebar .favorites div.header:hover a {
 	color: 					var(--cl-black);
 }
-.dark-theme #left-sidebar .favorites > div.header:hover a,  html[data-theme=dark] #left-sidebar .favorites > div.header:hover a {
+.dark-theme #left-sidebar .favorites div.header:hover a,  html[data-theme=dark] #left-sidebar .favorites div.header:hover a {
 	color: 					var(--cl-wildsand);
 }
 
