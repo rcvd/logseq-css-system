@@ -1990,13 +1990,20 @@ a svg {
 	color: 					var(--cl-iron);
 }
 
-#left-sidebar .nav-content-item .header {
+#left-sidebar .nav-header > div a:hover span {
+	color: 					var(--cl-electric);
+}
+.dark-theme #left-sidebar .nav-header > div a:hover span,  html[data-theme=dark] #left-sidebar .nav-header > div a:hover span {
+	color: 					var(--cl-disco);
+}
+
+#left-sidebar .nav-header > div a span {
 	color: 					var(--cl-nero);
 	font-family: 			'iA Writer Quattro S', sans-serif;
 	font-size: 				0.9rem;
 	font-weight: 			;
 }
-.dark-theme #left-sidebar .nav-content-item .header,  html[data-theme=dark] #left-sidebar .nav-content-item .header {
+.dark-theme #left-sidebar .nav-header > div a span,  html[data-theme=dark] #left-sidebar .nav-header > div a span {
 	color: 					var(--cl-iron);
 }
 
