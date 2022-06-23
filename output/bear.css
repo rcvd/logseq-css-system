@@ -2515,7 +2515,7 @@ a svg {
 .dark-theme .cp__right-sidebar .add-button-link,  html[data-theme=dark] .cp__right-sidebar .add-button-link {
 }
 
-#right-sidebar button {
+#right-sidebar .button {
 	background-color: 		transparent;
 	border-top: 			transparent;
 	border-right: 			transparent;
@@ -2524,7 +2524,7 @@ a svg {
 	border-radius: 			5px;
 	color: 					var(--cl-stardust);
 }
-.dark-theme #right-sidebar button,  html[data-theme=dark] #right-sidebar button {
+.dark-theme #right-sidebar .button,  html[data-theme=dark] #right-sidebar .button {
 	background-color: 		transparent;
 	border-top: 			transparent;
 	border-right: 			transparent;
