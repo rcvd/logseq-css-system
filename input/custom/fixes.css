@@ -10,3 +10,7 @@ html {
 .text-sm {
   font-size: 1rem;
 }
+
+.left-sidebar-inner .nav-content-item .bd ul a {
+  width: unset;
+}

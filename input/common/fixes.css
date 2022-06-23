@@ -223,3 +223,7 @@ body, textarea {
 .ls-block > .items-baseline {
   align-items: self-end!important;
 }
+
+.left-sidebar-inner .nav-content-item .bd ul a {
+  width: unset;
+}

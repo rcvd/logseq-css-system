@@ -1990,20 +1990,13 @@ a svg {
 	color: 					var(--cl-iron);
 }
 
-#left-sidebar .nav-header > div a:hover span {
-	color: 					var(--cl-electric);
-}
-.dark-theme #left-sidebar .nav-header > div a:hover span,  html[data-theme=dark] #left-sidebar .nav-header > div a:hover span {
-	color: 					var(--cl-disco);
-}
-
-#left-sidebar .nav-header > div a span {
+#left-sidebar .nav-content-item .header {
 	color: 					var(--cl-nero);
 	font-family: 			'iA Writer Quattro S', sans-serif;
 	font-size: 				0.9rem;
 	font-weight: 			;
 }
-.dark-theme #left-sidebar .nav-header > div a span,  html[data-theme=dark] #left-sidebar .nav-header > div a span {
+.dark-theme #left-sidebar .nav-content-item .header,  html[data-theme=dark] #left-sidebar .nav-content-item .header {
 	color: 					var(--cl-iron);
 }
 
@@ -4016,6 +4009,10 @@ body, textarea {
 
 .ls-block > .items-baseline {
   align-items: self-end!important;
+}
+
+.left-sidebar-inner .nav-content-item .bd ul a {
+  width: unset;
 }
 .ui__modal-panel {
   background: transparent !important;

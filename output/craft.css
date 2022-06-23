@@ -1869,20 +1869,13 @@ a svg {
 	color: 					var(--cl-silverchalice);
 }
 
-#left-sidebar .nav-header > div a:hover span {
-	color: 					var(--cl-black);
-}
-.dark-theme #left-sidebar .nav-header > div a:hover span,  html[data-theme=dark] #left-sidebar .nav-header > div a:hover span {
-	color: 					var(--cl-wildsand);
-}
-
-#left-sidebar .nav-header > div a span {
+#left-sidebar .nav-content-item .header {
 	color: 					var(--cl-black);
 	font-family: 			-apple-system, BlinkMacSystemFont, sans-serif;
 	font-size: 				0.9rem;
 	font-weight: 			400;
 }
-.dark-theme #left-sidebar .nav-header > div a span,  html[data-theme=dark] #left-sidebar .nav-header > div a span {
+.dark-theme #left-sidebar .nav-content-item .header,  html[data-theme=dark] #left-sidebar .nav-content-item .header {
 	color: 					var(--cl-wildsand);
 }
 
@@ -3895,6 +3888,10 @@ body, textarea {
 
 .ls-block > .items-baseline {
   align-items: self-end!important;
+}
+
+.left-sidebar-inner .nav-content-item .bd ul a {
+  width: unset;
 }
 /* Headlines */
 /*

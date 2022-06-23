@@ -1873,20 +1873,13 @@ a svg {
 	color: 					var(--cl-steel);
 }
 
-#left-sidebar .nav-header > div a:hover span {
-	color: 					var(--cl-vulcan);
-}
-.dark-theme #left-sidebar .nav-header > div a:hover span,  html[data-theme=dark] #left-sidebar .nav-header > div a:hover span {
-	color: 					var(--cl-lightgray);
-}
-
-#left-sidebar .nav-header > div a span {
+#left-sidebar .nav-content-item .header {
 	color: 					var(--cl-vulcan);
 	font-family: 			-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;;
 	font-size: 				0.9rem;
 	font-weight: 			;
 }
-.dark-theme #left-sidebar .nav-header > div a span,  html[data-theme=dark] #left-sidebar .nav-header > div a span {
+.dark-theme #left-sidebar .nav-content-item .header,  html[data-theme=dark] #left-sidebar .nav-content-item .header {
 	color: 					var(--cl-lightgray);
 }
 
@@ -3899,6 +3892,10 @@ body, textarea {
 
 .ls-block > .items-baseline {
   align-items: self-end!important;
+}
+
+.left-sidebar-inner .nav-content-item .bd ul a {
+  width: unset;
 }
 /* Remove tailwind formattings */
 .text-sm {
