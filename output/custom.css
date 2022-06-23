@@ -2447,6 +2447,24 @@ a svg {
 .dark-theme .cp__right-sidebar .add-button-link,  html[data-theme=dark] .cp__right-sidebar .add-button-link {
 }
 
+#right-sidebar button {
+	background-color: 		var(--cl-);
+	border-top: 			var(--cl-);
+	border-right: 			var(--cl-);
+	border-bottom: 			var(--cl-);
+	border-left: 			var(--cl-);
+	border-radius: 			;
+	color: 					var(--cl-);
+}
+.dark-theme #right-sidebar button,  html[data-theme=dark] #right-sidebar button {
+	background-color: 		var(--cl-);
+	border-top: 			var(--cl-);
+	border-right: 			var(--cl-);
+	border-bottom: 			var(--cl-);
+	border-left: 			var(--cl-);
+	color: 					var(--cl-);
+}
+
 #right-sidebar .sidebar-item .close:hover {
 	background-color: 		var(--cl-);
 	opacity: 				!important;
@@ -2487,11 +2505,11 @@ a svg {
 	color: 					var(--cl-);
 }
 
-.cp__sidebar-help-btn {
+.cp__sidebar-help-btn>inner {
 	background-color: 		var(--cl-);
 	color: 					var(--cl-);
 }
-.dark-theme .cp__sidebar-help-btn,  html[data-theme=dark] .cp__sidebar-help-btn {
+.dark-theme .cp__sidebar-help-btn>inner,  html[data-theme=dark] .cp__sidebar-help-btn>inner {
 	background-color: 		var(--cl-);
 	color: 					var(--cl-);
 }

@@ -2515,6 +2515,24 @@ a svg {
 .dark-theme .cp__right-sidebar .add-button-link,  html[data-theme=dark] .cp__right-sidebar .add-button-link {
 }
 
+#right-sidebar button {
+	background-color: 		transparent;
+	border-top: 			transparent;
+	border-right: 			transparent;
+	border-bottom: 			transparent;
+	border-left: 			transparent;
+	border-radius: 			5px;
+	color: 					var(--cl-stardust);
+}
+.dark-theme #right-sidebar button,  html[data-theme=dark] #right-sidebar button {
+	background-color: 		transparent;
+	border-top: 			transparent;
+	border-right: 			transparent;
+	border-bottom: 			transparent;
+	border-left: 			transparent;
+	color: 					var(--cl-stardust);
+}
+
 #right-sidebar .sidebar-item .close:hover {
 	background-color: 		var(--cl-);
 	opacity: 				1!important;
@@ -2555,11 +2573,11 @@ a svg {
 	color: 					var(--cl-gainsboro);
 }
 
-.cp__sidebar-help-btn {
+.cp__sidebar-help-btn>inner {
 	background-color: 		var(--cl-gainsboro);
 	color: 					var(--cl-);
 }
-.dark-theme .cp__sidebar-help-btn,  html[data-theme=dark] .cp__sidebar-help-btn {
+.dark-theme .cp__sidebar-help-btn>inner,  html[data-theme=dark] .cp__sidebar-help-btn>inner {
 	background-color: 		var(--cl-shark);
 	color: 					var(--cl-jumbo);
 }
