@@ -1805,6 +1805,24 @@ a svg {
 	color: 					var(--cl-wildsand);
 }
 
+#left-menu {
+	background-color: 		transparent;
+	border-top: 			transparent;
+	border-right: 			transparent;
+	border-bottom: 			transparent;
+	border-left: 			transparent;
+	border-radius: 			none;
+	color: 					var(--cl-midgray);
+}
+.dark-theme #left-menu,  html[data-theme=dark] #left-menu {
+	background-color: 		transparent;
+	border-top: 			transparent;
+	border-right: 			transparent;
+	border-bottom: 			transparent;
+	border-left: 			transparent;
+	color: 					var(--cl-silverchalice);
+}
+
 #left-sidebar .nav-header > div a:hover {
 	background-color: 		var(--cl-seashell);
 	border-top: 			transparent;
@@ -2073,6 +2091,24 @@ a svg {
 }
 .dark-theme .left-sidebar-inner .wrap::-webkit-scrollbar-thumb,  html[data-theme=dark] .left-sidebar-inner .wrap::-webkit-scrollbar-thumb {
 	background-color: 		var(--cl-silverchalice);
+}
+
+#search-button {
+	background-color: 		transparent;
+	border-top: 			transparent;
+	border-right: 			transparent;
+	border-bottom: 			transparent;
+	border-left: 			transparent;
+	border-radius: 			none;
+	color: 					var(--cl-midgray);
+}
+.dark-theme #search-button,  html[data-theme=dark] #search-button {
+	background-color: 		transparent;
+	border-top: 			transparent;
+	border-right: 			transparent;
+	border-bottom: 			transparent;
+	border-left: 			transparent;
+	color: 					var(--cl-silverchalice);
 }
 
 #mobile-editor-toolbar {

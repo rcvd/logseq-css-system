@@ -1851,6 +1851,24 @@ a svg {
 	color: 					var(--cl-stardust);
 }
 
+#left-menu {
+	background-color: 		transparent;
+	border-top: 			transparent;
+	border-right: 			transparent;
+	border-bottom: 			transparent;
+	border-left: 			transparent;
+	border-radius: 			5px;
+	color: 					var(--cl-stardust);
+}
+.dark-theme #left-menu,  html[data-theme=dark] #left-menu {
+	background-color: 		transparent;
+	border-top: 			transparent;
+	border-right: 			transparent;
+	border-bottom: 			transparent;
+	border-left: 			transparent;
+	color: 					var(--cl-stardust);
+}
+
 #left-sidebar .nav-header > div a:hover {
 	background-color: 		var(--cl-valencia);
 	border-top: 			transparent;
@@ -2119,6 +2137,24 @@ a svg {
 }
 .dark-theme .left-sidebar-inner .wrap::-webkit-scrollbar-thumb,  html[data-theme=dark] .left-sidebar-inner .wrap::-webkit-scrollbar-thumb {
 	background-color: 		var(--cl-darkgray);
+}
+
+#search-button {
+	background-color: 		transparent;
+	border-top: 			transparent;
+	border-right: 			transparent;
+	border-bottom: 			transparent;
+	border-left: 			transparent;
+	border-radius: 			5px;
+	color: 					var(--cl-stardust);
+}
+.dark-theme #search-button,  html[data-theme=dark] #search-button {
+	background-color: 		transparent;
+	border-top: 			transparent;
+	border-right: 			transparent;
+	border-bottom: 			transparent;
+	border-left: 			transparent;
+	color: 					var(--cl-stardust);
 }
 
 #mobile-editor-toolbar {

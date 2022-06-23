@@ -1926,6 +1926,24 @@ a svg {
 	color: 					var(--cl-iron);
 }
 
+#left-menu {
+	background-color: 		transparent;
+	border-top: 			transparent;
+	border-right: 			transparent;
+	border-bottom: 			transparent;
+	border-left: 			transparent;
+	border-radius: 			5px;
+	color: 					var(--cl-nero);
+}
+.dark-theme #left-menu,  html[data-theme=dark] #left-menu {
+	background-color: 		transparent;
+	border-top: 			transparent;
+	border-right: 			transparent;
+	border-bottom: 			transparent;
+	border-left: 			transparent;
+	color: 					var(--cl-iron);
+}
+
 #left-sidebar .nav-header > div a:hover {
 	background-color: 		transparent;
 	border-top: 			transparent;
@@ -2194,6 +2212,24 @@ a svg {
 }
 .dark-theme .left-sidebar-inner .wrap::-webkit-scrollbar-thumb,  html[data-theme=dark] .left-sidebar-inner .wrap::-webkit-scrollbar-thumb {
 	background-color: 		var(--cl-stack);
+}
+
+#search-button {
+	background-color: 		transparent;
+	border-top: 			transparent;
+	border-right: 			transparent;
+	border-bottom: 			transparent;
+	border-left: 			transparent;
+	border-radius: 			5px;
+	color: 					var(--cl-nero);
+}
+.dark-theme #search-button,  html[data-theme=dark] #search-button {
+	background-color: 		transparent;
+	border-top: 			transparent;
+	border-right: 			transparent;
+	border-bottom: 			transparent;
+	border-left: 			transparent;
+	color: 					var(--cl-iron);
 }
 
 #mobile-editor-toolbar {

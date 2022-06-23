@@ -1783,6 +1783,24 @@ a svg {
 	color: 					var(--cl-);
 }
 
+#left-menu {
+	background-color: 		var(--cl-);
+	border-top: 			var(--cl-);
+	border-right: 			var(--cl-);
+	border-bottom: 			var(--cl-);
+	border-left: 			var(--cl-);
+	border-radius: 			;
+	color: 					var(--cl-);
+}
+.dark-theme #left-menu,  html[data-theme=dark] #left-menu {
+	background-color: 		var(--cl-);
+	border-top: 			var(--cl-);
+	border-right: 			var(--cl-);
+	border-bottom: 			var(--cl-);
+	border-left: 			var(--cl-);
+	color: 					var(--cl-);
+}
+
 #left-sidebar .nav-header > div a:hover {
 	background-color: 		var(--cl-);
 	border-top: 			var(--cl-);
@@ -2051,6 +2069,24 @@ a svg {
 }
 .dark-theme .left-sidebar-inner .wrap::-webkit-scrollbar-thumb,  html[data-theme=dark] .left-sidebar-inner .wrap::-webkit-scrollbar-thumb {
 	background-color: 		var(--cl-);
+}
+
+#search-button {
+	background-color: 		var(--cl-);
+	border-top: 			var(--cl-);
+	border-right: 			var(--cl-);
+	border-bottom: 			var(--cl-);
+	border-left: 			var(--cl-);
+	border-radius: 			;
+	color: 					var(--cl-);
+}
+.dark-theme #search-button,  html[data-theme=dark] #search-button {
+	background-color: 		var(--cl-);
+	border-top: 			var(--cl-);
+	border-right: 			var(--cl-);
+	border-bottom: 			var(--cl-);
+	border-left: 			var(--cl-);
+	color: 					var(--cl-);
 }
 
 #mobile-editor-toolbar {
