@@ -2114,7 +2114,7 @@ a svg {
 	color: 					var(--cl-iron);
 }
 
-#left-sidebar .recent > div.header:hover {
+#left-sidebar .recent div.header:hover {
 	background-color: 		transparent;
 	border-top: 			transparent;
 	border-right: 			transparent;
@@ -2122,7 +2122,7 @@ a svg {
 	border-left: 			transparent;
 	border-radius: 			5px;
 }
-.dark-theme #left-sidebar .recent > div.header:hover,  html[data-theme=dark] #left-sidebar .recent > div.header:hover {
+.dark-theme #left-sidebar .recent div.header:hover,  html[data-theme=dark] #left-sidebar .recent div.header:hover {
 	background-color: 		transparent;
 	border-top: 			transparent;
 	border-right: 			transparent;
@@ -2130,7 +2130,7 @@ a svg {
 	border-left: 			transparent;
 }
 
-#left-sidebar .recent > div.header {
+#left-sidebar .recent div.header {
 	background-color: 		transparent;
 	border-top: 			transparent;
 	border-right: 			transparent;
@@ -2138,7 +2138,7 @@ a svg {
 	border-left: 			transparent;
 	border-radius: 			5px;
 }
-.dark-theme #left-sidebar .recent > div.header,  html[data-theme=dark] #left-sidebar .recent > div.header {
+.dark-theme #left-sidebar .recent div.header,  html[data-theme=dark] #left-sidebar .recent div.header {
 	background-color: 		transparent;
 	border-top: 			transparent;
 	border-right: 			transparent;
@@ -2146,42 +2146,42 @@ a svg {
 	border-left: 			transparent;
 }
 
-#left-sidebar .recent > div.header:hover svg {
+#left-sidebar .recent div.header:hover svg {
 	fill: 		var(--cl-dove);
 }
-.dark-theme #left-sidebar .recent > div.header:hover svg,  html[data-theme=dark] #left-sidebar .recent > div.header:hover svg {
+.dark-theme #left-sidebar .recent div.header:hover svg,  html[data-theme=dark] #left-sidebar .recent div.header:hover svg {
 	fill: 		var(--cl-iron);
 }
 
-#left-sidebar .recent > div.header:hover .ti {
+#left-sidebar .recent div.header:hover .ti {
 	color: 					var(--cl-nero);
 }
-.dark-theme #left-sidebar .recent > div.header:hover .ti,  html[data-theme=dark] #left-sidebar .recent > div.header:hover .ti {
+.dark-theme #left-sidebar .recent div.header:hover .ti,  html[data-theme=dark] #left-sidebar .recent div.header:hover .ti {
 	color: 					var(--cl-iron);
 }
 
-#left-sidebar .recent > div.header .ti {
+#left-sidebar .recent div.header .ti {
 	color: 					var(--cl-nero);
 }
-.dark-theme #left-sidebar .recent > div.header .ti,  html[data-theme=dark] #left-sidebar .recent > div.header .ti {
+.dark-theme #left-sidebar .recent div.header .ti,  html[data-theme=dark] #left-sidebar .recent div.header .ti {
 	color: 					var(--cl-iron);
 }
 
-#left-sidebar .recent > div.header:hover a {
+#left-sidebar .recent div.header:hover a {
 	color: 					var(--cl-nero);
 }
-.dark-theme #left-sidebar .recent > div.header:hover a,  html[data-theme=dark] #left-sidebar .recent > div.header:hover a {
+.dark-theme #left-sidebar .recent div.header:hover a,  html[data-theme=dark] #left-sidebar .recent div.header:hover a {
 	color: 					var(--cl-iron);
 }
 
-#left-sidebar .recent > div.header a {
+#left-sidebar .recent div.header a {
 	color: 					var(--cl-nero);
 	font-family: 			'iA Writer Quattro S', sans-serif;
 	font-size: 				0.9rem;
 	font-weight: 			;
 	opacity: 				1!important;
 }
-.dark-theme #left-sidebar .recent > div.header a,  html[data-theme=dark] #left-sidebar .recent > div.header a {
+.dark-theme #left-sidebar .recent div.header a,  html[data-theme=dark] #left-sidebar .recent div.header a {
 	color: 					var(--cl-iron);
 }
 
@@ -3565,22 +3565,31 @@ a svg {
 	color: 					var(--cl-iron)!important;
 }
 
-#head  button {
+#head .button {
 	background-color: 		transparent;
 	border-top: 			transparent;
 	border-right: 			transparent;
 	border-bottom: 			transparent;
 	border-left: 			transparent;
 	border-radius: 			5px;
-	color: 					var(--cl-nero);
+	color: 					var(--cl-dove);
+	opacity: 				1;
 }
-.dark-theme #head  button,  html[data-theme=dark] #head  button {
+.dark-theme #head .button,  html[data-theme=dark] #head .button {
 	background-color: 		transparent;
 	border-top: 			transparent;
 	border-right: 			transparent;
 	border-bottom: 			transparent;
 	border-left: 			transparent;
-	color: 					var(--cl-iron);
+	color: 					var(--cl-raven);
+}
+
+#head .button:hover {
+	color: 					var(--cl-nero);
+	opacity: 				;
+}
+.dark-theme #head .button:hover,  html[data-theme=dark] #head .button:hover {
+	color: 					var(--cl-disco);
 }
 
 #head a.button:hover .ti {

@@ -1971,7 +1971,7 @@ a svg {
 	color: 					var(--cl-);
 }
 
-#left-sidebar .recent > div.header:hover {
+#left-sidebar .recent div.header:hover {
 	background-color: 		var(--cl-);
 	border-top: 			var(--cl-);
 	border-right: 			var(--cl-);
@@ -1979,7 +1979,7 @@ a svg {
 	border-left: 			var(--cl-);
 	border-radius: 			;
 }
-.dark-theme #left-sidebar .recent > div.header:hover,  html[data-theme=dark] #left-sidebar .recent > div.header:hover {
+.dark-theme #left-sidebar .recent div.header:hover,  html[data-theme=dark] #left-sidebar .recent div.header:hover {
 	background-color: 		var(--cl-);
 	border-top: 			var(--cl-);
 	border-right: 			var(--cl-);
@@ -1987,7 +1987,7 @@ a svg {
 	border-left: 			var(--cl-);
 }
 
-#left-sidebar .recent > div.header {
+#left-sidebar .recent div.header {
 	background-color: 		var(--cl-);
 	border-top: 			var(--cl-);
 	border-right: 			var(--cl-);
@@ -1995,7 +1995,7 @@ a svg {
 	border-left: 			var(--cl-);
 	border-radius: 			;
 }
-.dark-theme #left-sidebar .recent > div.header,  html[data-theme=dark] #left-sidebar .recent > div.header {
+.dark-theme #left-sidebar .recent div.header,  html[data-theme=dark] #left-sidebar .recent div.header {
 	background-color: 		var(--cl-);
 	border-top: 			var(--cl-);
 	border-right: 			var(--cl-);
@@ -2003,42 +2003,42 @@ a svg {
 	border-left: 			var(--cl-);
 }
 
-#left-sidebar .recent > div.header:hover svg {
+#left-sidebar .recent div.header:hover svg {
 	fill: 		var(--cl-);
 }
-.dark-theme #left-sidebar .recent > div.header:hover svg,  html[data-theme=dark] #left-sidebar .recent > div.header:hover svg {
+.dark-theme #left-sidebar .recent div.header:hover svg,  html[data-theme=dark] #left-sidebar .recent div.header:hover svg {
 	fill: 		var(--cl-);
 }
 
-#left-sidebar .recent > div.header:hover .ti {
+#left-sidebar .recent div.header:hover .ti {
 	color: 					var(--cl-);
 }
-.dark-theme #left-sidebar .recent > div.header:hover .ti,  html[data-theme=dark] #left-sidebar .recent > div.header:hover .ti {
-	color: 					var(--cl-);
-}
-
-#left-sidebar .recent > div.header .ti {
-	color: 					var(--cl-);
-}
-.dark-theme #left-sidebar .recent > div.header .ti,  html[data-theme=dark] #left-sidebar .recent > div.header .ti {
+.dark-theme #left-sidebar .recent div.header:hover .ti,  html[data-theme=dark] #left-sidebar .recent div.header:hover .ti {
 	color: 					var(--cl-);
 }
 
-#left-sidebar .recent > div.header:hover a {
+#left-sidebar .recent div.header .ti {
 	color: 					var(--cl-);
 }
-.dark-theme #left-sidebar .recent > div.header:hover a,  html[data-theme=dark] #left-sidebar .recent > div.header:hover a {
+.dark-theme #left-sidebar .recent div.header .ti,  html[data-theme=dark] #left-sidebar .recent div.header .ti {
 	color: 					var(--cl-);
 }
 
-#left-sidebar .recent > div.header a {
+#left-sidebar .recent div.header:hover a {
+	color: 					var(--cl-);
+}
+.dark-theme #left-sidebar .recent div.header:hover a,  html[data-theme=dark] #left-sidebar .recent div.header:hover a {
+	color: 					var(--cl-);
+}
+
+#left-sidebar .recent div.header a {
 	color: 					var(--cl-);
 	font-family: 			;
 	font-size: 				;
 	font-weight: 			;
 	opacity: 				!important;
 }
-.dark-theme #left-sidebar .recent > div.header a,  html[data-theme=dark] #left-sidebar .recent > div.header a {
+.dark-theme #left-sidebar .recent div.header a,  html[data-theme=dark] #left-sidebar .recent div.header a {
 	color: 					var(--cl-);
 }
 
@@ -3422,7 +3422,7 @@ a svg {
 	color: 					var(--cl-)!important;
 }
 
-#head  button {
+#head .button {
 	background-color: 		var(--cl-);
 	border-top: 			var(--cl-);
 	border-right: 			var(--cl-);
@@ -3430,13 +3430,22 @@ a svg {
 	border-left: 			var(--cl-);
 	border-radius: 			;
 	color: 					var(--cl-);
+	opacity: 				;
 }
-.dark-theme #head  button,  html[data-theme=dark] #head  button {
+.dark-theme #head .button,  html[data-theme=dark] #head .button {
 	background-color: 		var(--cl-);
 	border-top: 			var(--cl-);
 	border-right: 			var(--cl-);
 	border-bottom: 			var(--cl-);
 	border-left: 			var(--cl-);
+	color: 					var(--cl-);
+}
+
+#head .button:hover {
+	color: 					var(--cl-);
+	opacity: 				;
+}
+.dark-theme #head .button:hover,  html[data-theme=dark] #head .button:hover {
 	color: 					var(--cl-);
 }
 
