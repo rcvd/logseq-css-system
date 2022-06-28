@@ -3766,12 +3766,6 @@ a {
   margin-top: 0px;
 }
 
-.new-page a.item .ti,
-.cp__sidebar-left-layout nav[aria-label="Sidebar"] div.relative a .ti,
-.cp__sidebar-left-layout .nav-header > div a .ti {
-  padding-bottom: 3px;
-}
-
 .white-theme .form-checkbox:checked,
 html[data-theme="light"] .form-checkbox:checked {
   background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23555555' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M5.707 7.293a1 1 0 0 0-1.414 1.414l2 2a1 1 0 0 0 1.414 0l4-4a1 1 0 0 0-1.414-1.414L7 8.586 5.707 7.293z'/%3e%3c/svg%3e");
