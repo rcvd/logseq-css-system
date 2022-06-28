@@ -3909,6 +3909,14 @@ body, textarea {
 .left-sidebar-inner .nav-content-item .bd ul a {
   width: unset;
 }
+
+.ls-block div.items-center {
+  align-items: center;
+}
+
+i.ti {
+    transform: none;
+} 
 /* Headlines */
 /*
 *:is(.editor-inner .uniline-block.h1, .editor-inner .h1, .ls-block h1) {

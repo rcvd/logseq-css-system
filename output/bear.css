@@ -3955,6 +3955,14 @@ body, textarea {
 .left-sidebar-inner .nav-content-item .bd ul a {
   width: unset;
 }
+
+.ls-block div.items-center {
+  align-items: center;
+}
+
+i.ti {
+    transform: none;
+} 
 .ui__modal-panel {
   background: transparent !important;
   border-radius: 10px;
