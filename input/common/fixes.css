@@ -222,10 +222,6 @@ body, textarea {
   width: unset;
 }
 
-.ls-block div.items-center {
-  align-items: center;
-}
-
 i.ti {
     transform: none;
 } 
