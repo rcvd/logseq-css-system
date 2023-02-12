@@ -349,7 +349,7 @@ html[data-theme=dark] {
 }
 
 .block-properties {
-	background-color: 		transparent;
+	--ls-page-properties-background-color: transparent;
 	border-top: 			transparent;
 	border-right: 			transparent;
 	border-bottom: 			transparent;
@@ -357,7 +357,7 @@ html[data-theme=dark] {
 	border-radius: 			0px;
 }
 .dark-theme .block-properties,  html[data-theme=dark] .block-properties {
-	background-color: 		transparent;
+	--ls-page-properties-background-color: transparent;
 	border-top: 			transparent;
 	border-right: 			transparent;
 	border-bottom: 			transparent;
@@ -3868,7 +3868,7 @@ a.tag {
   background: transparent;
 }
 
-.block-control, 
+.block-control,
 .block-control:hover {
   min-height: unset;
 }
@@ -3914,7 +3914,7 @@ body, textarea {
 
 i.ti {
     transform: none;
-} 
+}
 /* Remove tailwind formattings */
 .text-sm {
   font-size: 1em;

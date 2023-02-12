@@ -391,7 +391,7 @@ html[data-theme=light] {
 }
 
 .block-properties {
-	background-color: 		var(--cl-white);
+	--ls-page-properties-background-color: var(--cl-white);
 	border-top: 			1px solid var(--cl-gainsboro);
 	border-right: 			1px solid var(--cl-gainsboro);
 	border-bottom: 			1px solid var(--cl-gainsboro);
@@ -399,7 +399,7 @@ html[data-theme=light] {
 	border-radius: 			2px;
 }
 .dark-theme .block-properties,  html[data-theme=dark] .block-properties {
-	background-color: 		var(--cl-mutedblack);
+	--ls-page-properties-background-color: var(--cl-mutedblack);
 	border-top: 			1px solid var(--cl-darkgray);
 	border-right: 			1px solid var(--cl-darkgray);
 	border-bottom: 			1px solid var(--cl-darkgray);
@@ -3910,7 +3910,7 @@ a.tag {
   background: transparent;
 }
 
-.block-control, 
+.block-control,
 .block-control:hover {
   min-height: unset;
 }
@@ -3956,7 +3956,7 @@ body, textarea {
 
 i.ti {
     transform: none;
-} 
+}
 .ui__modal-panel {
   background: transparent !important;
   border-radius: 10px;

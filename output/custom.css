@@ -323,7 +323,7 @@ html[data-theme=light] {
 }
 
 .block-properties {
-	background-color: 		var(--cl-);
+	--ls-page-properties-background-color: var(--cl-);
 	border-top: 			var(--cl-);
 	border-right: 			var(--cl-);
 	border-bottom: 			var(--cl-);
@@ -331,7 +331,7 @@ html[data-theme=light] {
 	border-radius: 			;
 }
 .dark-theme .block-properties,  html[data-theme=dark] .block-properties {
-	background-color: 		var(--cl-);
+	--ls-page-properties-background-color: var(--cl-);
 	border-top: 			var(--cl-);
 	border-right: 			var(--cl-);
 	border-bottom: 			var(--cl-);
@@ -3842,7 +3842,7 @@ a.tag {
   background: transparent;
 }
 
-.block-control, 
+.block-control,
 .block-control:hover {
   min-height: unset;
 }
@@ -3888,7 +3888,7 @@ body, textarea {
 
 i.ti {
     transform: none;
-} 
+}
 .ui__modal-panel {
   background: transparent !important;
   border-radius: 5px;

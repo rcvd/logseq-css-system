@@ -345,7 +345,7 @@ html[data-theme=dark] {
 }
 
 .block-properties {
-	background-color: 		var(--cl-whitesmoke);
+	--ls-page-properties-background-color: var(--cl-whitesmoke);
 	border-top: 			transparent;
 	border-right: 			transparent;
 	border-bottom: 			transparent;
@@ -353,7 +353,7 @@ html[data-theme=dark] {
 	border-radius: 			5px;
 }
 .dark-theme .block-properties,  html[data-theme=dark] .block-properties {
-	background-color: 		var(--cl-darkjungle);
+	--ls-page-properties-background-color: var(--cl-darkjungle);
 	border-top: 			transparent;
 	border-right: 			transparent;
 	border-bottom: 			transparent;
@@ -3451,7 +3451,7 @@ a svg {
 	border-bottom: 			transparent;
 	border-left: 			transparent;
 	border-radius: 			none;
-	color: 					var(--cl-µ);
+	color: 					var(--cl-Âµ);
 	opacity: 				1;
 }
 .dark-theme #head .button,  html[data-theme=dark] #head .button {
@@ -3864,7 +3864,7 @@ a.tag {
   background: transparent;
 }
 
-.block-control, 
+.block-control,
 .block-control:hover {
   min-height: unset;
 }
@@ -3910,7 +3910,7 @@ body, textarea {
 
 i.ti {
     transform: none;
-} 
+}
 /* Headlines */
 /*
 *:is(.editor-inner .uniline-block.h1, .editor-inner .h1, .ls-block h1) {
